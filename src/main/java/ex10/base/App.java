@@ -19,24 +19,24 @@ public class App
         Item item2 = new Item();
         Item item3 = new Item();
 
-        System.out.println("Enter the price of item 1:");
+        System.out.print("Enter the price of item 1: ");
         price = input.nextFloat();
         item1.setPrice(price);
-        System.out.println("Enter the quantity of item 1:");
+        System.out.print("Enter the quantity of item 1: ");
         quantity = input.nextInt();
         item1.setQuantity(quantity);
 
-        System.out.println("Enter the price of item 2:");
+        System.out.print("Enter the price of item 2: ");
         price = input.nextFloat();
         item2.setPrice(price);
-        System.out.println("Enter the quantity of item 2:");
+        System.out.print("Enter the quantity of item 2: ");
         quantity = input.nextInt();
         item2.setQuantity(quantity);
 
-        System.out.println("Enter the price of item 3:");
+        System.out.print("Enter the price of item 3: ");
         price = input.nextFloat();
         item3.setPrice(price);
-        System.out.println("Enter the quantity of item 3:");
+        System.out.print("Enter the quantity of item 3: ");
         quantity = input.nextInt();
         item3.setQuantity(quantity);
 
